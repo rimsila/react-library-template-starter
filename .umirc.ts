@@ -1,6 +1,7 @@
 import { readdirSync } from 'fs';
 import chalk from 'chalk';
 import { join } from 'path';
+import { defineConfig } from 'umi';
 
 const headPkgList = [];
 // utils must build before core
@@ -26,7 +27,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const isDeploy = process.env.SITE_DEPLOY === 'TRUE';
 
-export default {
+export default defineConfig({
   title: 'Sila',
   mode: 'site',
   logo: 'https://gw.alipayobjects.com/zos/antfincdn/upvrAjAPQX/Logo_Tech%252520UI.svg',
@@ -88,14 +89,14 @@ export default {
       null,
       {
         title: 'GitHub',
-        path: 'https://github.com/ant-design/pro-components',
+        path: 'https://github.com/rimsila/react-library-template-starter',
       },
     ],
     'zh-CN': [
       null,
       {
         title: 'GitHub',
-        path: 'https://github.com/ant-design/pro-components',
+        path: 'https://github.com/rimsila/react-library-template-starter',
       },
     ],
   },
@@ -107,6 +108,8 @@ export default {
   hash: true,
   ssr: isDeploy ? {} : undefined,
   exportStatic: {},
+  base: '/react-library-template-starter',
+  publicPath: '/react-library-template-starter/',
   targets: {
     chrome: 80,
     firefox: false,
@@ -151,4 +154,4 @@ export default {
   webpack5: {},
   // mfsu: !isDeploy ? {} : undefined,
   fastRefresh: {},
-};
+});

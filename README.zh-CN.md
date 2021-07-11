@@ -4,7 +4,7 @@
 
 这里放置了 pro 系列组件，用于支撑重型组件
 
-![coverage CI](https://github.com/ant-design/pro-components/workflows/coverage%20CI/badge.svg) ![Node CI](https://github.com/ant-design/pro-components/workflows/Node%20CI/badge.svg) ![Deploy CI](https://github.com/ant-design/pro-components/workflows/Deploy%20CI/badge.svg) [![](https://codecov.io/gh/ant-design/pro-components/branch/master/graph/badge.svg)](https://codecov.io/gh/ant-design/pro-components) [![ docs by dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://d.umijs.org/) [![Build With father](https://img.shields.io/badge/build%20with-father-028fe4.svg)](https://github.com/umijs/father/) [![](https://badgen.net/badge/icon/Ant%20Design?icon=https://gw.alipayobjects.com/zos/antfincdn/Pp4WPgVDB3/KDpgvguMpGfqaHPjicRK.svg&label)](https://ant.design) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+![coverage CI](https://github.com/rimsila/react-library-template-starter/workflows/coverage%20CI/badge.svg) ![Node CI](https://github.com/rimsila/react-library-template-starter/workflows/Node%20CI/badge.svg) ![Deploy CI](https://github.com/rimsila/react-library-template-starter/workflows/Deploy%20CI/badge.svg) [![](https://codecov.io/gh/ant-design/pro-components/branch/master/graph/badge.svg)](https://codecov.io/gh/ant-design/pro-components) [![ docs by dumi](https://img.shields.io/badge/docs%20by-dumi-blue)](https://d.umijs.org/) [![Build With father](https://img.shields.io/badge/build%20with-father-028fe4.svg)](https://github.com/umijs/father/) [![](https://badgen.net/badge/icon/Ant%20Design?icon=https://gw.alipayobjects.com/zos/antfincdn/Pp4WPgVDB3/KDpgvguMpGfqaHPjicRK.svg&label)](https://ant.design) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 
 ## 🖥 浏览器兼容性
 
@@ -20,8 +20,8 @@
 我们非常欢迎你的贡献，你可以通过以下方式和我们一起共建 😃 ：
 
 - 在你的公司或个人项目中使用 Ant Design Pro，umi 和 ProComponents。
-- 通过 [Issue](https://github.com/ant-design/pro-components/issues) 报告 bug 或进行咨询。
-- 提交 [Pull Request](https://github.com/ant-design/pro-components/pulls) 改进 ProComponents 的代码。
+- 通过 [Issue](https://github.com/rimsila/react-library-template-starter/issues) 报告 bug 或进行咨询。
+- 提交 [Pull Request](https://github.com/rimsila/react-library-template-starter/pulls) 改进 ProComponents 的代码。
 
 ## 组件看板
 

@@ -25,7 +25,7 @@ const { yParser } = require('@umijs/utils');
         files: ['lib', 'src', 'dist', 'es'],
         repository: {
           type: 'git',
-          url: 'https://github.com/ant-design/pro-components',
+          url: 'https://github.com/rimsila/react-library-template-starter',
         },
         browserslist: ['last 2 versions', 'Firefox ESR', '> 1%', 'ie >= 11'],
         keywords: ['antd', 'admin', 'ant-design', 'ant-design-pro'],
@@ -35,7 +35,7 @@ const { yParser } = require('@umijs/utils');
         ],
         license: 'MIT',
         bugs: 'http://github.com/umijs/plugins/issues',
-        homepage: `https://github.com/ant-design/pro-components/tree/master/packages/${shortName}#readme`,
+        homepage: `https://github.com/rimsila/react-library-template-starter/tree/master/packages/${shortName}#readme`,
         peerDependencies: {
           umi: '3.x',
         },
