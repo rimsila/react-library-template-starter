@@ -100,11 +100,11 @@ export default defineConfig({
       },
     ],
   },
-  analytics: isProduction
-    ? {
-        ga: 'UA-173569162-1',
-      }
-    : false,
+  // analytics: isProduction
+  //   ? {
+  //       ga: 'UA-173569162-1',
+  //     }
+  //   : false,
   hash: true,
   ssr: isDeploy ? {} : undefined,
   exportStatic: {},
